@@ -29,16 +29,8 @@ export default function HeaderSection({ mainMenu }) {
                     <div className="row align-items-center">
                         <div className="col-lg-12">
                             <nav className="navbar navbar-expand-lg">
-                                <a className="navbar-brand" href="https://buttercms.com">
-                                    <Image
-                                        src="https://cdn.buttercms.com/PBral0NQGmmFzV0uG7Q6"
-                                        alt="Logo"
-                                        width={180}
-                                        height={45}
-                                        style={{
-                                            maxWidth: "100%",
-                                            height: "auto"
-                                        }} />
+                                <a className="navbar-brand" href="/">
+                                    <span class="mb-0 h1">WG Business</span>
                                 </a>
                                 <MainMenu mainMenuLinks={mainMenu} />
                             </nav>
